@@ -72,7 +72,7 @@ class Teacher extends Staff {
         return subject;
     }
 
-    @Override
+    
     public String toString() {
         return super.toString() + ", Subject: " + subject;
     }
@@ -89,7 +89,7 @@ class Typist extends Staff {
         return speed;
     }
 
-    @Override
+    
     public String toString() {
         return super.toString() + ", Speed: " + speed;
     }
@@ -106,7 +106,7 @@ class Officer extends Staff {
         return grade;
     }
 
-    @Override
+    
     public String toString() {
         return super.toString() + ", Grade: " + grade;
     }
@@ -123,7 +123,7 @@ class Regular extends Staff {
         return salary;
     }
 
-    @Override
+    
     public String toString() {
         return super.toString() + ", Salary: " + salary;
     }
@@ -140,7 +140,7 @@ class Casual extends Staff {
         return dailyWages;
     }
 
-    @Override
+    
     public String toString() {
         return super.toString() + ", Daily Wages: " + dailyWages;
     }
